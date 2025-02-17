@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lions Wrestling Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            font-size: 24px;
+        }
+        .container {
+            margin: 20px auto;
+            width: 85%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Lions Wrestling Schedule</header>
+
+    <div class="container">
+        <h2>Upcoming Events</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=a0d75922c1bf0a5b46ee3685e7e719219cd672c60f037a8efa6804a0f120afa0%40group.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+    </div>
+
+</body>
+</html>
